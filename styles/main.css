@@ -58,7 +58,7 @@
     bottom: 0;
     color: #00acdc; }
 
-.row_item {
+.product__card__row__item {
   width: 200px;
   padding: 15px 14px;
   border: 1px solid #f3f3f3;
@@ -74,19 +74,19 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin-right: 48px; }
-  .row_item .service_small_text {
+  .product__card__row__item .product__card__small__text {
     font-size: 11px;
     line-height: 13px; }
-  .row_item .service_photo {
+  .product__card__row__item .product__card__photo {
     width: 160px;
     height: 134px;
     margin: 15px 5px; }
-  .row_item .service_title {
+  .product__card__row__item .product__card__title {
     margin: 30px auto 5px;
     font-weight: 500;
     font-size: 12px;
     line-height: 15px; }
-  .row_item .service_rating {
+  .product__card__row__item .product__card__rating {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -96,7 +96,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    .row_item .service_rating .service_stars {
+    .product__card__row__item .product__card__rating .product__card__rating__stars {
       height: 15px;
       width: 91px;
       display: -webkit-box;
@@ -105,24 +105,24 @@
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between; }
-    .row_item .service_rating .service_star {
+    .product__card__row__item .product__card__rating .product__card__rating__star {
       width: 15px;
       height: 15px;
       display: inline-block;
       background-image: url(../images/star.svg);
       background-repeat: no-repeat;
       background-position: center; }
-    .row_item .service_rating .service_callbacks {
+    .product__card__row__item .product__card__rating .product__card__callbacks {
       margin: 0;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
-    .row_item .service_rating .service_star:nth-child(-n + 4) {
+    .product__card__row__item .product__card__rating .product__card__rating__star:nth-child(-n + 4) {
       background-image: url(../images/star-active.svg); }
-  .row_item .service_cod_tovaru {
+  .product__card__row__item .product__card__cod_tovaru {
     margin-bottom: 15px;
     margin-top: 0; }
-  .row_item .service_price {
+  .product__card__row__item .product__card__price {
     margin: 20px 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -133,11 +133,11 @@
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end; }
-    .row_item .service_price .service_price_number {
+    .product__card__row__item .product__card__price .product__card__price_number {
       font-weight: 700;
       font-size: 16px;
       line-height: 19px; }
-  .row_item .service_button_buy {
+  .product__card__row__item .product__card__button__buy {
     width: 170px;
     height: 40px;
     display: -webkit-box;
@@ -158,15 +158,15 @@
     font-size: 14px;
     font-weight: bold;
     text-align: center; }
-  .row_item .service_button_buy:hover {
+  .product__card__row__item .product__card__button__buy:hover {
     background: #fff;
     color: #00acdc;
     border: 1px solid #00acdc; }
 
-.row_item:first-child {
+.product__card__row__item:first-child {
   margin-left: 0; }
 
-.row_item:last-child {
+.product__card__row__item:last-child {
   margin-right: 0; }
 
 html {
