@@ -84,7 +84,7 @@ body {
     margin-left: 0; }
   .card:last-child {
     margin-right: 0; }
-  .card__small__text {
+  .card-small-text {
     font-size: 11px;
     line-height: 13px; }
   .card__image {
@@ -106,7 +106,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    .card__rating .card__rating__star {
+    .card__rating .card__rating-star {
       display: inline-block;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
@@ -124,17 +124,17 @@ body {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
-    .card__rating .stars--1 .card__rating__star:nth-child(-n+1) {
+    .card__rating .stars--1 .card__rating-star:nth-child(-n+1) {
       background-image: url(../images/star-active.svg); }
-    .card__rating .stars--2 .card__rating__star:nth-child(-n+2) {
+    .card__rating .stars--2 .card__rating-star:nth-child(-n+2) {
       background-image: url(../images/star-active.svg); }
-    .card__rating .stars--3 .card__rating__star:nth-child(-n+3) {
+    .card__rating .stars--3 .card__rating-star:nth-child(-n+3) {
       background-image: url(../images/star-active.svg); }
-    .card__rating .stars--4 .card__rating__star:nth-child(-n+4) {
+    .card__rating .stars--4 .card__rating-star:nth-child(-n+4) {
       background-image: url(../images/star-active.svg); }
-    .card__rating .stars--5 .card__rating__star:nth-child(-n+5) {
+    .card__rating .stars--5 .card__rating-star:nth-child(-n+5) {
       background-image: url(../images/star-active.svg); }
-    .card__rating .card__review__amount {
+    .card__rating .card__review-amount {
       margin: 0;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
@@ -153,11 +153,11 @@ body {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end; }
-    .card__price .card__price__amount {
+    .card__price .card__price-amount {
       font-weight: 700;
       font-size: 16px;
       line-height: 19px; }
-  .card__button__buy {
+  .card__button-buy {
     width: 170px;
     height: 40px;
     display: -webkit-box;
@@ -178,7 +178,7 @@ body {
     font-size: 14px;
     font-weight: bold;
     text-align: center; }
-  .card__button__buy:hover {
+  .card__button-buy:hover {
     background: #fff;
     color: #00acdc;
     border: 1px solid #00acdc; }
@@ -189,7 +189,7 @@ html {
 body {
   margin: 0; }
 
-.section {
+.card-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,7 +199,7 @@ body {
   margin: 50px auto; }
 
 @media screen and (min-width: 1024px) and (max-width: 1202px) {
-  .section {
+  .card-section {
     width: 944px; } }
 
 /*# sourceMappingURL=main.css.map */
