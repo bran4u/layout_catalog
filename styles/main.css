@@ -3,12 +3,13 @@
           box-sizing: border-box; }
 
 html {
+  font-size: 11px;
   font-family: Roboto, sans-serif; }
 
 body {
   margin: 0; }
 
-.header_box {
+.header {
   height: 60px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -23,9 +24,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  .header_box .logo {
+  .header .logo {
     height: 40px; }
-  .header_box .nav__list {
+  .header .nav__list {
     list-style-type: none;
     margin: 0;
     -webkit-padding-start: 0;
@@ -33,13 +34,13 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-  .header_box .nav__item {
+  .header .nav__item {
     margin-right: 20px;
     font-size: 12px;
     line-height: 14px; }
-  .header_box .nav__item:last-child {
+  .header .nav__item:last-child {
     margin-right: 0; }
-  .header_box .nav_link {
+  .header .nav__link {
     display: block;
     position: relative;
     line-height: 60px;
@@ -48,12 +49,12 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: black; }
-  .header_box .nav_link:hover {
+  .header .nav__link:hover {
     color: #00acdc; }
-  .header_box .is-active {
+  .header .is-active {
     position: relative;
     color: #00acdc; }
-  .header_box .is-active::after {
+  .header .is-active::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -78,12 +79,7 @@ body {
           flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  margin-right: 48px; }
-  .card:first-child {
-    margin-left: 0; }
-  .card:last-child {
-    margin-right: 0; }
+          justify-content: center; }
   .card-small-text {
     font-size: 11px;
     line-height: 13px; }
@@ -153,7 +149,7 @@ body {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end; }
-    .card__price .card__price-amount {
+    .card__price .card__amount {
       font-weight: 700;
       font-size: 16px;
       line-height: 19px; }
@@ -183,16 +179,12 @@ body {
     color: #00acdc;
     border: 1px solid #00acdc; }
 
-html {
-  font-family: Roboto, sans-serif; }
-
 body {
   margin: 0; }
 
 .card-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: grid;
+  grid-template-columns: 248px 248px 248px 200px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
