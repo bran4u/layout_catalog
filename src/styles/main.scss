@@ -7,7 +7,9 @@ body {
 }
 
 .card-section {
-  display: flex ;
+  display: grid;
+  grid-template-columns: repeat(4,200px);
+  gap: 48px;
   justify-content: center;
   margin: 50px auto;
 }
