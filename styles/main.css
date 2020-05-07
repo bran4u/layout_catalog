@@ -184,7 +184,8 @@ body {
 
 .card-section {
   display: grid;
-  grid-template-columns: 248px 248px 248px 200px;
+  grid-template-columns: repeat(4, 200px);
+  gap: 50px 48px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
